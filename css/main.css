@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 .body{
     background-color: rgb(255, 228, 225) ;
     margin: 0 auto;
@@ -60,8 +63,27 @@
 
 .card_style{
     background-color: rgba(255, 166, 0, 0.473);
+    
+    
 }
 
+.projects .card{
+    border: 1px solid black;
+    background-color: transparent
+}
+
+.span_languajes{
+    justify-content: space-between;
+}
+.span_languajes .languajes{
+    font-size: 12px;
+    padding: 3px;
+    justify-content: space-between;
+    border: 1px solid black ;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    
+}
 
 /* ------MEDIA QUERYS----- */
 
@@ -69,9 +91,16 @@
 }
 
 @media (max-width: 992px) {
+    /* Projects */
+    .card{
+        margin-left: 10px;
+    }
+
 }
 
 @media (max-width: 768px) {
+
+    /* HOME */
     .div_home{
         display: block;
     }
@@ -90,7 +119,16 @@
         padding-bottom: 10%;
     }
     
+    /* Projects */
+    .projects{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-top: 20px;
+    }
+    
 }
-
 @media (max-width: 576px) {
 }      
