@@ -1,0 +1,96 @@
+.body{
+    background-color: rgb(255, 228, 225) ;
+    margin: 0 auto;
+    height: 100%;
+}
+
+/* HEADER */
+.NavBarS{
+    
+    background-color: wheat;
+}
+
+
+/* HOME */
+
+.div_home_background{
+    background: url(../img/codigo.jpg) center center / cover no-repeat fixed;
+    
+}
+
+.div_home{
+    margin-top: 10%;
+    display: flex;
+}
+
+.div_home img{
+    height: 30%;
+    width: 30%;
+    
+}
+.div_home2{
+    
+}
+
+.div_home2 h2{
+    font-style: italic;
+    font-size: 45px;
+}
+
+.div_home2 p{
+    font-family: 'Bree Serif', serif;
+    font-size: 25px;
+}
+/*-------------PROJECTS-------------*/
+.projects{
+    display: flex;
+    justify-content: space-between;
+}
+
+.projects_h3{
+    display: block;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+}
+
+.projects_h3 h3{
+    font-size: 3rem;
+}
+
+.card_style{
+    background-color: rgba(255, 166, 0, 0.473);
+}
+
+
+/* ------MEDIA QUERYS----- */
+
+@media (max-width: 1200px) {
+}
+
+@media (max-width: 992px) {
+}
+
+@media (max-width: 768px) {
+    .div_home{
+        display: block;
+    }
+
+    .div_home img{
+        padding-top: 5%;
+        padding-left: 30%;
+    }
+
+    .div_home2 h2{
+        padding-top: 0%;
+        padding-bottom: 5%;
+    }
+
+    .div_home2 p{
+        padding-bottom: 10%;
+    }
+    
+}
+
+@media (max-width: 576px) {
+}      
