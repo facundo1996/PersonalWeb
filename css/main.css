@@ -2,16 +2,31 @@ html{
     scroll-behavior: smooth;
 }
 .body{
-    background-color: rgb(255, 244, 244) ;
+    background-color: rgba(252, 243, 243, 0.959) ;
     margin: 0 auto;
     height: 100%;
 }
 
+/* GENERALES */
 
+.font_h3{
+    font-family: 'Patua One', cursive;
+    text-decoration: underline;
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    padding: 50px;
+    color: black;
+    letter-spacing: 10px;
+}
 
 /* HEADER */
 .NavBarS{
-    background-color: none;
+    background-color:none;
+}
+
+#li_nav{
+    color: black;
 }
 
 /* HOME */
@@ -52,20 +67,11 @@ html{
 }
 
 .projects_h3{
-    display: block;
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    text-decoration: underline;
-}
 
-.projects_h3 h3{
-    font-size: 3rem;
 }
 
 .card_style{
     background-color: rgba(255, 166, 0, 0.473);
-    
-    
 }
 
 .projects .card{
@@ -101,12 +107,47 @@ html{
     
 }
 
+/* ----------SKILLS---------- */
+.skills_div{
+    width: 100%;
+    background: url(../img/fondo1.jpg) center center / cover no-repeat fixed;
+}
+
+.icon_div{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 100px;
+}
+
+.div_icon_img{
+    border-radius: 50% ;
+    background: 1px rgba(241, 237, 236, 0.568); 
+}
+
+.icon_skill{
+    height: 150px;
+    padding: 30px;
+}
+
+.div_icon_img:hover .icon_skill{
+    transform:scale(1.8);
+    transition: 1s;
+}
+
+
+
 /* ------MEDIA QUERYS----- */
 
 @media (max-width: 1200px) {
+    
 }
 
 @media (max-width: 992px) {
+    /* HOME */
+    .div_home{
+        
+    }
+
     /* Projects */
     .card{
         margin-left: 10px;
@@ -121,13 +162,18 @@ html{
     .span_languajes .languajes{
         width: 90px;
         text-align: center;
-        
     }
     
 }
 
 
 @media (max-width: 768px) {
+
+    /* HEADER */
+
+    .NavBarS{
+        background-color: white;
+    }
 
     /* HOME */
     .div_home{
