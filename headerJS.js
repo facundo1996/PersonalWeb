@@ -1,10 +1,8 @@
-
-
-/* window.addEventListener('scroll', function(){
-    if (document.body.scrollTop === 0){
-        document.getElementById("NavID").style.background = "rgb(234, 243, 237)"
+window.addEventListener('scroll', function () {
+    if (document.documentElement.scrollTop === 0){
+        document.getElementById("NavID").style.background ="none"
     }
     else{
-        document.getElementById("NavID").style.background="rgb(255, 228, 225)"
+        document.getElementById("NavID").style.background ="rgb(243, 191, 94)"
     }
-}) */
+})
