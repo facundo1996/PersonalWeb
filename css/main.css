@@ -10,19 +10,19 @@ html{
 /* GENERALES */
 
 .font_h3{
-    font-family: 'Patua One', cursive;
-    text-decoration: underline;
+    font-family: 'Roboto', sans-serif;
     display: block;
     text-align: center;
     font-size: 40px;
     padding: 50px;
     color: black;
-    letter-spacing: 10px;
+    letter-spacing: 5px;
 }
 
 /* HEADER */
 .NavBarS{
     background-color:none;
+    font-family: 'Roboto', sans-serif;
 }
 
 #li_nav{
@@ -32,8 +32,6 @@ html{
 /* HOME */
 .div_home_background{
     background: url(../img/codigo.jpg) center center / cover no-repeat fixed;
-    
-    
 }
 
 .div_home{
@@ -54,11 +52,12 @@ html{
 
 .div_home2 h2{
     font-style: italic;
+    font-family: 'Roboto', sans-serif;
     font-size: 30px;
 }
 
 .div_home2 p{
-    font-family: 'Bree Serif', serif;
+    font-family: 'Nunito', sans-serif;
     font-size: 15px;
 }
 /*-------------PROJECTS-------------*/
@@ -71,15 +70,37 @@ html{
     display: flex;
     justify-content: space-between;
 }
+.card-title{
+    font-family: 'Roboto', sans-serif;
+}
 
 .card_style{
     background-color: rgb(255, 255, 255);
+}
+
+.card_style p{
+    font-family: 'Nunito', sans-serif;
 }
 
 .projects .card{
     border: 1px solid black;
     background-color: transparent;
     cursor: pointer;
+}
+
+.ecma{
+    display: flex;
+    justify-content: center;
+}
+.ecma p{
+    border: 1px solid rgb(245, 96, 70) ;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+    font-size: 12px;
+    padding: 2px 7px;
 }
 
 .card:hover{
@@ -131,26 +152,27 @@ html{
     padding: 30px;
 }
 
-.div_icon_img:hover .icon_skill{
-    transform:scale(1.8);
-    transition: 1s;
-}
+
 /* -----CONTACT----- */
 .contact_div{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 15%;
+    margin-top: 10%;
 }
 .contact_div a{
-    margin-top: 5%;
+    margin-top: 2% 5%;
     background: darkblue;
     padding: 10px 20px;
     font-family: 'Bungee', cursive;
     color: white;
     border: 5px solid cadetblue;
 }
+
+.links_div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5% 5% 20% 5%;
+}
+
 .contact_div a:hover{
     background: white;
     color: darkblue;
@@ -163,6 +185,21 @@ html{
 }
 
 @media (max-width: 992px) {
+    
+    /* CONTACT */
+    .links_div{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;        
+    }
+    .contact_div a{
+        margin-top: 5%;
+    }
+    
+    
+    
+    
     /* HOME */
     .div_home{
         
@@ -247,7 +284,7 @@ html{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: whitesmoke;
-    font-family: 'Bebas Neue', cursive;
+    background-color: rgb(228, 225, 225);
+    font-family:'Roboto', sans-serif;
     letter-spacing: 2px
 }

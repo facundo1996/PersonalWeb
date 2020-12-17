@@ -1,11 +1,6 @@
 window.addEventListener('scroll', function () {
     if (document.documentElement.scrollTop === 0){
-        if(document.body.clientWidth > 750){
-            document.getElementById("NavID").style.background ="none"
-        }
-        else{
-            document.getElementById("NavID").style.background ="white"
-        }
+        document.getElementById("NavID").style.background ="white"
         document.getElementById("i_nav").style.color ="black"
         document.getElementById("h1_li_nav").style.color ="black"
         document.getElementById("li_nav1").style.color ="black"
