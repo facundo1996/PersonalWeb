@@ -30,11 +30,6 @@ html{
 }
 
 /* HOME */
-
-.div_home_contenedor{
-    height: 100vh;
-}
-
 .div_home_background{
     background: url(../img/codigo.jpg) center center / cover no-repeat fixed;
     
@@ -68,7 +63,8 @@ html{
 }
 /*-------------PROJECTS-------------*/
 .projects_div{
-    
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
 
 .projects{
@@ -138,6 +134,26 @@ html{
 .div_icon_img:hover .icon_skill{
     transform:scale(1.8);
     transition: 1s;
+}
+/* -----CONTACT----- */
+.contact_div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15%;
+}
+.contact_div a{
+    margin-top: 5%;
+    background: darkblue;
+    padding: 10px 20px;
+    font-family: 'Bungee', cursive;
+    color: white;
+    border: 5px solid cadetblue;
+}
+.contact_div a:hover{
+    background: white;
+    color: darkblue;
 }
 
 /* ------MEDIA QUERYS----- */
@@ -222,3 +238,16 @@ html{
 }
 @media (max-width: 576px) {
 }      
+
+
+/* FOOTER */
+.footer{
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 2px
+}
