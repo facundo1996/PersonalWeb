@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 .body{
-    background-color: rgba(252, 243, 243, 0.959) ;
+    background-color: white ;
     margin: 0 auto;
     height: 100%;
 }
@@ -31,14 +31,20 @@ html{
 
 /* HOME */
 
+.div_home_contenedor{
+    height: 100vh;
+}
+
 .div_home_background{
     background: url(../img/codigo.jpg) center center / cover no-repeat fixed;
+    
     
 }
 
 .div_home{
-    margin-top: 5%;
+    margin-top: 14%;
     display: flex;
+    
 }
 
 .div_home img{
@@ -61,17 +67,17 @@ html{
     font-size: 15px;
 }
 /*-------------PROJECTS-------------*/
+.projects_div{
+    
+}
+
 .projects{
     display: flex;
     justify-content: space-between;
 }
 
-.projects_h3{
-
-}
-
 .card_style{
-    background-color: rgba(255, 166, 0, 0.473);
+    background-color: rgb(255, 255, 255);
 }
 
 .projects .card{
@@ -134,8 +140,6 @@ html{
     transition: 1s;
 }
 
-
-
 /* ------MEDIA QUERYS----- */
 
 @media (max-width: 1200px) {
@@ -165,6 +169,17 @@ html{
     }
     
 }
+
+@media (max-width: 870px) {
+    .icon_div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div_icon_img{
+        margin: 10px;
+    }
+}      
 
 
 @media (max-width: 768px) {
