@@ -8,7 +8,6 @@ html{
 }
 
 /* GENERALES */
-
 .font_h3{
     font-family: 'Roboto', sans-serif;
     display: block;
@@ -20,6 +19,10 @@ html{
 }
 
 /* HEADER */
+.h1{
+    font-family: 'Roboto', sans-serif;
+}
+
 .NavBarS{
     background-color:none;
     font-family: 'Roboto', sans-serif;
