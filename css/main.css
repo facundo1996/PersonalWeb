@@ -162,11 +162,10 @@ html{
 }
 .contact_div a{
     margin-top: 2% 5%;
-    background: darkblue;
+    background: black;
     padding: 10px 20px;
     font-family: 'Roboto', sans-serif;
     color: white;
-    border: 5px solid cadetblue;
 }
 
 .links_div{
@@ -177,8 +176,7 @@ html{
 }
 
 .contact_div a:hover{
-    background: white;
-    color: darkblue;
+    
 }
 
 /* ------MEDIA QUERYS----- */
