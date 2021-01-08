@@ -109,12 +109,17 @@ html{
 .card:hover{
     transform: translateY(20px);
     transition: 1s;
+    float: none;
+    position: relative;
+    z-index: 1;
+    box-sizing: content-box;
 }
 
 .card:hover .card-img-top{
     transform:scale(1.3);
     transition: 1s;
     border: solid 1px black;
+
 }
 
 .span_languajes{
@@ -153,6 +158,7 @@ html{
 .icon_skill{
     height: 150px;
     padding: 30px;
+    
 }
 
 
