@@ -239,6 +239,15 @@ html{
     .div_icon_img{
         margin: 10px;
     }
+    /* Projects */
+    .projects{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        margin-top: 20px;
+    }
 }      
 
 
@@ -269,15 +278,7 @@ html{
         padding-bottom: 10%;
     }
     
-    /* Projects */
-    .projects{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .card{
-        margin-top: 20px;
-    }
+    
     
 }
 @media (max-width: 576px) {
