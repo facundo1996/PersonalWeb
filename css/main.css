@@ -285,6 +285,12 @@ html{
     
 }
 @media (max-width: 576px) {
+    .skills_div div div h3{
+        font-size: 30px;
+    }
+    .contact_div div h3{
+        font-size: 30px;
+    }
 }      
 
 
