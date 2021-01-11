@@ -34,13 +34,13 @@ html{
 
 /* HOME */
 .div_home_background{
-    background: url(../img/codigo.jpg) center center / cover no-repeat fixed;
+    background: url(../img/fondo3.jpg) center center / cover no-repeat fixed;
+
 }
 
 .div_home{
     margin-top: 14%;
     display: flex;
-    
 }
 
 .div_home img{
@@ -68,6 +68,7 @@ html{
     padding-top: 10%;
     padding-bottom: 10%;
 }
+
 
 .projects{
     display: flex;
