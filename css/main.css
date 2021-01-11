@@ -261,12 +261,15 @@ html{
 
     /* HOME */
     .div_home{
-        display: block;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
 
     .div_home img{
         padding-top: 5%;
-        padding-left: 30%;
+        width: 50%;
     }
 
     .div_home2 h2{
