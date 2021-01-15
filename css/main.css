@@ -182,7 +182,8 @@ html{
 }
 
 .contact_div a:hover{
-    
+    text-decoration: none;
+    color: white;
 }
 
 /* ------MEDIA QUERYS----- */
