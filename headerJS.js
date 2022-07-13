@@ -19,14 +19,10 @@ window.addEventListener('scroll', function () {
     }
 })
 
-/* let uno = 1
-let dos = 2
-document.getElementById('boton').addEventListener("click", function(){
-    cambiar()
+$('#exampleModalCenter').modal('show')
+$(".btn-mis-redes").on('click', function(){
+    $('#exampleModalCenter').modal('hide')
 })
-
-function cambiar(){
-    console.log(document.body.clientWidth)
-}
-
- */
+$("#btnMisRedes").on('click', function(){
+    $('#exampleModalCenter').modal('hide')
+})

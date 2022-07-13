@@ -185,6 +185,17 @@ html{
     text-decoration: none;
     color: white;
 }
+.modal-body{
+    font-family: 'Roboto', sans-serif;
+}
+.btn-mis-redes:hover{
+    color: rgb(33, 37, 41);
+    cursor: pointer;
+}
+.btn-mis-redes{
+    color: rgb(33, 37, 41);
+    text-decoration: underline;
+}
 
 /* ------MEDIA QUERYS----- */
 
